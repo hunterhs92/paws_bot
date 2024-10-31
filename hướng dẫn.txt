@@ -1,0 +1,17 @@
+1. Xem hướng dẫn cài tool python tại: https://t.me/thic_autu/8
+
+2. Tool chỉ chạy trên bản python 3.11.5 những máy đã cài đúng bản python không cần cài lại, nếu máy đã cài python bản khác vui lòng gỡ ra và  cài python 3.11.5 theo link: https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe
+-    Khi cài đặt python nhớ tick chọn "add python.exe to PATH"
+
+3. Lưu ý sử dung git clone để tải code về giống video hướng dẫn để không bị lỗi khi chạy file thực thi run.bat (nếu download file có thể bị chạy file run mà nó không hiện lên)
+
+4. Copy danh sách ID profile GPM vào file data.txt và proxy vào file proxy.txt (để tối ưu nên sắp xếp proxy trùng với id GPM). Lưu ý không để khoảng trắng ở cuối file data hay proxy. Mẫu format xem trong proxy-example.txt
+
+5. Lưu ý mọi file có đuôi -example chỉ là file ví dụ, không áp dụng vào trong code. Nhớ sửa link ref và link channel trong file .env. Các thông số cấu hình đều lấy từ .env không phải .env-example
+
+6. Chạy file run.bat và chờ 3-10 phút tùy tốc độ mạng. khi cài đặt xong sẽ hiện key, vui lòng copy key và liên hệ tele: @nora24320 để active
+
+7. Hướng dẫn cập nhật tool lên bản mới nhất: https://t.me/thic_autu/21
+
+8. Hướng dẫn chạy ref tầng (chia 10 ref mỗi account):
+- Thêm số id profile vào các file reflink_10.txt, reflink_100.txt, reflink_1000.txt cho phù hợp. (reflink_10.txt chứa 10 id, reflink_100.txt chứa 100 id, reflink_1000.txt chứa 1000 id)
