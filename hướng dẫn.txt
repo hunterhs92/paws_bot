@@ -14,4 +14,5 @@
 7. Hướng dẫn cập nhật tool lên bản mới nhất: https://t.me/thic_autu/21
 
 8. Hướng dẫn chạy ref tầng (chia 10 ref mỗi account):
-- Thêm số id profile vào các file reflink_10.txt, reflink_100.txt, reflink_1000.txt cho phù hợp. (reflink_10.txt chứa 10 id, reflink_100.txt chứa 100 id, reflink_1000.txt chứa 1000 id)
+- Thêm số id profile vào các file profile_10.txt, profile_100.txt, profile_1000.txt cho phù hợp. (profile_10.txt chứa 10 id, profile_100.txt chứa 100 id, profile_1000.txt chứa 1000 id)
+- Các profile trong file profile_10.txt sẽ cắn ref cho link ref chính trong file .env, profile_100.txt sẽ cắn ref cho các profile trong file profile_10.txt, profile_1000.txt sẽ cắn ref cho các profile trong file profile_100.txt...cứ thế theo cấp số nhân
