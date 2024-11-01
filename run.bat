@@ -40,19 +40,19 @@ if not exist proxy.txt (
     copy proxy-example.txt proxy.txt
 )
 
-if not exist reflink\reflink_10.txt (
-    echo Đang copy file reflink_10.txt
-    copy reflink\reflink_10-example.txt reflink\reflink_10.txt
+if not exist reflink\profile_10.txt (
+    echo Đang copy file profile_10.txt
+    copy reflink\profile_10-example.txt reflink\profile_10.txt
 )
 
-if not exist reflink\reflink_100.txt (
-    echo Đang copy file reflink_100.txt
-    copy reflink\reflink_100-example.txt reflink\reflink_100.txt
+if not exist reflink\profile_100.txt (
+    echo Đang copy file profile_100.txt
+    copy reflink\profile_100-example.txt reflink\profile_100.txt
 )
 
-if not exist reflink\reflink_1000.txt (
-    echo Đang copy file reflink_1000.txt
-    copy reflink\reflink_1000-example.txt reflink\reflink_1000.txt
+if not exist reflink\profile_1000.txt (
+    echo Đang copy file profile_1000.txt
+    copy reflink\profile_1000-example.txt reflink\profile_1000.txt
 )
 
 :loop
