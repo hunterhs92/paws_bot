@@ -55,6 +55,11 @@ if not exist reflink\profile_1000.txt (
     copy reflink\profile_1000-example.txt reflink\profile_1000.txt
 )
 
+if not exist reflink\profile_10000.txt (
+    echo Đang copy file profile_10000.txt
+    copy reflink\profile_10000-example.txt reflink\profile_10000.txt
+)
+
 :loop
 python main.py
 echo Đang khởi động lại chương trình sau 30 giây...
