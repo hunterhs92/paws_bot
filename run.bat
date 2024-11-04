@@ -1,5 +1,5 @@
 @echo off
-title Notpixel by @thic_autu
+title PAWSOG_bot by @thic_autu
 chcp 65001 >nul
 if not exist .venv (
     echo Đang tạo biến môi trường...
@@ -62,7 +62,7 @@ if not exist reflink\profile_10000.txt (
 
 :loop
 python main.py
-echo Đang khởi động lại chương trình sau 30 giây...
-timeout /t 30 /nobreak >nul
+echo Đang khởi động lại chương trình sau 10 giây...
+timeout /t 10 /nobreak >nul
 goto :loop
 
