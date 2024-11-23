@@ -3,6 +3,7 @@ data.txt
 proxy.txt
 .env
 iframe.json
+key.json
 reflink/reflink_10.txt
 reflink/reflink_100.txt
 reflink/reflink_1000.txt
